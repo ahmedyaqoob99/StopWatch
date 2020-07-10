@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div style="background-image: url(images.jpg); width: 100%; height: 100%;">
+        <div class="main">
+            <div class="time">
+                <h1 id="min" style="display: inline-block;">0</h1>
+                <span>:</span>
+                <h1 id="sec" style="display: inline-block;"> 0</h1>
+                <span>:</span>
+                <h1 id="msec" style="display: inline-block;"> 0</h1>
+            </div>
+            <div class="btn">
+                <button onclick="start()" id="startBtn">Start</button>
+                <button onclick="stop()">Stop</button>
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
